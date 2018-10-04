@@ -1,7 +1,8 @@
-package lab1;
+package lab1; //deklaracja pakietu
 
-public class First {
-    public static void main(String[] args) {
-        System.out.println("Hello Java");
+public class First { //definicja klasy publicznej
+    public static void main(String[] args) { //metoda main
+	
+        System.out.println("Hello Java"); //wypisanie tekstu
     }
 }
