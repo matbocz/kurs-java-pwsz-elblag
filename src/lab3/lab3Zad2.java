@@ -3,8 +3,8 @@ package lab3;
 import java.util.Scanner; //import klasy
 
 public class lab3Zad2 { //definicja klasy publicznej
-    public static void main(String[] args) { //definicja metody
-        //deklaracja zmiennych
+    public static void main(String[] args) { //definicja metody main
+        //deklaracja tablic jednowymiarowych typu int
         int x[] = new int[5];
         int wyniki[] = new int[2];
 

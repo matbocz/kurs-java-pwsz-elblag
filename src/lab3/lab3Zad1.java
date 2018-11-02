@@ -3,8 +3,8 @@ package lab3;
 import java.util.Scanner; //import klasy
 
 public class lab3Zad1 { //definicja klasy publicznej
-    public static void main(String[] args) { //definicja metody
-        //deklaracja zmiennych
+    public static void main(String[] args) { //definicja metody main
+        //deklaracja tablic jednowymiarowych typu double
         double x[] = new double[5];
         double y[] = new double[5];
         double z[] = new double[5];
@@ -30,7 +30,7 @@ public class lab3Zad1 { //definicja klasy publicznej
         for (int i = 0; i < tab.length; i++) {
             System.out.println("Podaj element tablicy: ");
             while (!sc.hasNextDouble()) {
-                System.out.println("To nie jest liczba zmienoprzecinkowa.");
+                System.out.println("To nie jest liczba zmiennoprzecinkowa.");
                 System.out.println("Podaj liczbę zmiennoprzecinkową:");
                 sc.next();
             }

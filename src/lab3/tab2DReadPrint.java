@@ -3,8 +3,8 @@ package lab3;
 import java.util.Scanner; //import klasy
 
 public class tab2DReadPrint { //definicja klasy publicznej
-    public static void main(String[] args) { //definicja metody
-        int x[][] = new int[3][3]; //deklaracja tablicy dwuwymiarowej x typu int
+    public static void main(String[] args) { //definicja metody main
+        int x[][] = new int[3][3]; //deklaracja tablicy dwuwymiarowej typu int
 
         //wczytanie i wydrukowanie tablicy dwuwymiarowej x typu int
         readTab2D(x);
