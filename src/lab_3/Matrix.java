@@ -1,4 +1,4 @@
-package lab3;
+package lab_3; //deklaracja pakietu
 
 public class Matrix { //definicja klasy publicznej
     public static void main(String[] args) { //definicja metody main

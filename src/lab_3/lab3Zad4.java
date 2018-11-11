@@ -1,6 +1,6 @@
-package lab3;
+package lab_3; //deklaracja pakietu
 
-public class lab3 { //definicja klasy publicznej
+public class lab3Zad4 { //definicja klasy publicznej
     public static void main(String[] args) { //definicja metody main
         double suma; //deklaracja zmiennej typu double
 

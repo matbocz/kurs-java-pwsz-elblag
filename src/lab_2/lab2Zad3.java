@@ -1,4 +1,4 @@
-package lab2;
+package lab_2; //deklaracja pakietu
 
 import java.io.IOException; //import klasy
 import java.util.Scanner; //import klasy

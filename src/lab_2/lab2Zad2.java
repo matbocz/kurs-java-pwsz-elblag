@@ -1,4 +1,4 @@
-package lab2;
+package lab_2; //deklaracja pakietu
 
 import java.util.Random; //import klasy
 

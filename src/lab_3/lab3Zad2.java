@@ -1,4 +1,4 @@
-package lab3;
+package lab_3; //deklaracja pakietu
 
 import java.util.Scanner; //import klasy
 

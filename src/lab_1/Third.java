@@ -1,4 +1,4 @@
-package lab1; //deklaracja pakietu
+package lab_1; //deklaracja pakietu
 
 public class Third { //definicja klasy publicznej
     public static void main(String[] args) { //definicja metody
