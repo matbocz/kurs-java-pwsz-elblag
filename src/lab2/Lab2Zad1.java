@@ -1,9 +1,9 @@
-package lab_2; //deklaracja pakietu
+package lab2; //deklaracja pakietu
 
 import java.io.IOException; //import klasy
 import java.util.Scanner; //import klasy
 
-public class lab2Zad1 { //definicja klasy publicznej
+public class Lab2Zad1 { //definicja klasy publicznej
     public static void main(String[] args) throws IOException { //definicja metody, obsługa wyjątków
 
         //deklaracja zmiennych

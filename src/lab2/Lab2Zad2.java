@@ -1,8 +1,8 @@
-package lab_2; //deklaracja pakietu
+package lab2; //deklaracja pakietu
 
 import java.util.Random; //import klasy
 
-public class lab2Zad2 { //definicja klasy publicznej
+public class Lab2Zad2 { //definicja klasy publicznej
     public static void main(String[] args) { //definicja metody
 
         //deklaracja zmiennych

@@ -1,6 +1,6 @@
-package lab_2; //deklaracja pakietu
+package lab2; //deklaracja pakietu
 
-public class lab2ZadDom { //definicja klasy publicznej
+public class Lab2ZadDom { //definicja klasy publicznej
     public static void main(String[] args) { //definicja metody
 
         //deklaracja zmiennych

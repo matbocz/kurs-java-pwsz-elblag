@@ -1,8 +1,8 @@
-package lab_3; //deklaracja pakietu
+package lab3; //deklaracja pakietu
 
 import java.util.Scanner; //import klasy
 
-public class lab3Zad2 { //definicja klasy publicznej
+public class Lab3Zad2 { //definicja klasy publicznej
     public static void main(String[] args) { //definicja metody main
         //deklaracja tablic jednowymiarowych typu int
         int x[] = new int[5];

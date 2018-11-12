@@ -1,8 +1,8 @@
-package lab_3; //deklaracja pakietu
+package lab3; //deklaracja pakietu
 
 import java.util.Scanner; //import klasy
 
-public class tab2DReadPrint { //definicja klasy publicznej
+public class Tab2DReadPrint { //definicja klasy publicznej
     public static void main(String[] args) { //definicja metody main
         int x[][] = new int[3][3]; //deklaracja tablicy dwuwymiarowej typu int
 
