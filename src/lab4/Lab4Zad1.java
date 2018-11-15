@@ -56,14 +56,14 @@ public class Lab4Zad1 {
             System.out.println(los[i]);
         System.out.println();
 
-        //skopiowanie elementów tablicy x, z wybranego zakresu indeksów, do tablicy y
+        //skopiowanie elementów z tablicy x do tablicy y, z wybranego zakresu indeksów
         System.out.println("Tablica y. Skopiowanie indeksów od 1 do 3 z tablicy x.");
         y = Arrays.copyOfRange(x, 1, 4);
         for (double element : y) System.out.print(element + " ");
         System.out.println();
         System.out.println();
 
-        //wyszukanie zadanego elementu w tablicy x
+        //wyszukanie wybranego elementu w tablicy x
         System.out.println("Wyszukanie elementu 3.0 w tablicy x.");
         Arrays.sort(x);
         int nrElementu = Arrays.binarySearch(x, 3.0);
