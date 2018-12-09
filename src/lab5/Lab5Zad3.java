@@ -60,7 +60,7 @@ public class Lab5Zad3 {
         converToBinary(maskD);
         maskD = ~maskD; //00000000000000000000000000000000
         maskD = maskD >>> 4; //00001111111111111111111111111111
-        maskD = ~maskD; //1 1 1 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+        maskD = ~maskD; //11110000000000000000000000000000
         converToBinary(maskD);
         System.out.println();
     }
