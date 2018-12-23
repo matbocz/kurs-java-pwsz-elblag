@@ -5,12 +5,15 @@ public class Lab5Zad4 {
         int x = 15;
         int n, p, w;
 
+        System.out.println("x = " + x);
         converToBinary(x);
+
         n = 3;
         p = 3;
-        w = groupVal(x, n, p);
         System.out.println("n = " + n);
         System.out.println("p = " + p);
+
+        w = groupVal(x, n, p);
         System.out.println("Wartość bloku: " + w);
     }
 
