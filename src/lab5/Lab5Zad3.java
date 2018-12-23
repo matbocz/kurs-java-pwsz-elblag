@@ -9,21 +9,23 @@ public class Lab5Zad3 {
         int maskTest = 0;
         int maskA = 0, maskB = 0, maskC = 0, maskD = 0;
 
+        //ustawienie bitu o określonym numerze na 0
         System.out.println("x = " + x);
         converToBinary(x);
-        System.out.println("y = " + y);
-        converToBinary(y);
-        System.out.println();
-
         x = x & ~(1 << nrBitu1);
-        y = y | 1 << nrBitu2;
-
         System.out.println("Przesunięto bit o numerze: " + nrBitu1 + ", x = " + x);
         converToBinary(x);
+        System.out.println();
+
+        //ustawienie bitu o określonym numerze na 1
+        System.out.println("y = " + y);
+        converToBinary(y);
+        y = y | 1 << nrBitu2;
         System.out.println("Przesunięto bit o numerze: " + nrBitu2 + ", y = " + y);
         converToBinary(y);
         System.out.println();
 
+        //maska testowa
         System.out.println("Maska Test");
         converToBinary(maskTest);
         maskTest = ~maskTest; //11111111
@@ -34,6 +36,7 @@ public class Lab5Zad3 {
         converToBinary(maskTest);
         System.out.println();
 
+        //maska która na najmłodszych pozycjach ma same zera
         System.out.println("Maska A");
         converToBinary(maskA);
         maskA = ~maskA; //11111111
@@ -41,6 +44,7 @@ public class Lab5Zad3 {
         converToBinary(maskA);
         System.out.println();
 
+        //maska która na najmłodszych pozycjach ma same jedynki
         System.out.println("Maska B");
         converToBinary(maskB);
         maskB = ~maskB; //11111111
@@ -49,6 +53,7 @@ public class Lab5Zad3 {
         converToBinary(maskB);
         System.out.println();
 
+        //maska która na najstarszych pozycjach ma same zera
         System.out.println("Maska C");
         converToBinary(maskC);
         maskC = ~maskC; //00000000000000000000000000000000
@@ -56,13 +61,13 @@ public class Lab5Zad3 {
         converToBinary(maskC);
         System.out.println();
 
+        ////maska która na najstarszych pozycjach ma same jedynki
         System.out.println("Maska D");
         converToBinary(maskD);
         maskD = ~maskD; //00000000000000000000000000000000
         maskD = maskD >>> 4; //00001111111111111111111111111111
         maskD = ~maskD; //11110000000000000000000000000000
         converToBinary(maskD);
-        System.out.println();
     }
 
     //metoda realizująca konwersję liczby dziesiętnej na postać binarną
