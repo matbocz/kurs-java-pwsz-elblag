@@ -7,7 +7,7 @@ public class Lab6Zad6 {
 
         //podzielenie łańcucha na części i wydrukowanie
         String results[] = str.split(",");
-        for(String x: results)
+        for (String x : results)
             System.out.println(x);
     }
 }
