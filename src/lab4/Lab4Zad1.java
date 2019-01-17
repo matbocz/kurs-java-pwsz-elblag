@@ -5,10 +5,10 @@ import java.util.Random;
 
 public class Lab4Zad1 {
     public static void main(String[] args) {
-        double x[] = {2, 3, 5, 2, 1};
-        double kopia[];
-        double y[];
-        double los[] = new double[5];
+        double[] x = {2, 3, 5, 2, 1};
+        double[] kopia;
+        double[] y;
+        double[] los = new double[5];
         int iloscElementow;
 
         //wydrukowanie tablicy x

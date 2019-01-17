@@ -6,7 +6,7 @@ public class Lab6Zad6 {
         String str = "zielony,niebieski,czerwony";
 
         //podzielenie łańcucha na części i wydrukowanie
-        String results[] = str.split(",");
+        String[] results = str.split(",");
         for (String x : results)
             System.out.println(x);
     }

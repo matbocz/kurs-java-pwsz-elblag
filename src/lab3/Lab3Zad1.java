@@ -1,13 +1,13 @@
 package lab3; //deklaracja pakietu
 
-import java.util.Scanner; //import klasy
+import java.util.Scanner;
 
 public class Lab3Zad1 { //definicja klasy publicznej
     public static void main(String[] args) { //definicja metody main
         //deklaracja tablic jednowymiarowych typu double
-        double x[] = new double[5];
-        double y[] = new double[5];
-        double z[] = new double[5];
+        double[] x = new double[5];
+        double[] y = new double[5];
+        double[] z = new double[5];
 
         //wczytanie i wydrukowanie tablicy jednowymiarowej x typu double
         readTab1D(x);
@@ -19,12 +19,12 @@ public class Lab3Zad1 { //definicja klasy publicznej
 
         //wczytanie i wydrukowanie tablicy jednowymiarowej z typu double
         Lab3Zad1 c = new Lab3Zad1();
-        c.readTab1D(z);
-        c.printTab1D(z);
+        readTab1D(z);
+        printTab1D(z);
     }
 
     //metoda wczytująca tablicę jednowymiarową typu double
-    static void readTab1D(double tab[]) {
+    static void readTab1D(double[] tab) {
         Scanner sc = new Scanner(System.in);
 
         for (int i = 0; i < tab.length; i++) {
@@ -39,7 +39,7 @@ public class Lab3Zad1 { //definicja klasy publicznej
     }
 
     //metoda drukująca tablicę jednowymiarową typu double
-    static void printTab1D(double tab[]) {
+    static void printTab1D(double[] tab) {
         for (int i = 0; i < tab.length; i++)
             System.out.println(tab[i]);
     }

@@ -1,6 +1,6 @@
 package lab2; //deklaracja pakietu
 
-import java.util.Random; //import klasy
+import java.util.Random;
 
 public class Lab2Zad2 { //definicja klasy publicznej
     public static void main(String[] args) { //definicja metody

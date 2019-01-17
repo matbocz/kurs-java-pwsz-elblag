@@ -73,7 +73,7 @@ public class Lab5Zad3 {
     //metoda realizująca konwersję liczby dziesiętnej na postać binarną
     static void converToBinary(int x) {
         int k = 1;
-        int bit[] = new int[32];
+        int[] bit = new int[32];
 
         for (int i = 0; i < 32; i++) {
             if ((x & k) != 0) bit[i] = 1;

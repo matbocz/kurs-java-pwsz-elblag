@@ -3,7 +3,7 @@ package lab6;
 public class Lab6Zad4 {
     public static void main(String[] args) {
         //utworzenie obiektu klasy String
-        String s1 = new String("Nazwa");
+        String s1 = "Nazwa";
 
         //zamienienie liter w łańcuchu na małe i wydrukowanie
         String s2 = s1.toLowerCase();

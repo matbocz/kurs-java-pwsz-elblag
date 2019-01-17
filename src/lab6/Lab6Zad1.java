@@ -5,8 +5,8 @@ import java.util.Date;
 public class Lab6Zad1 {
     public static void main(String[] args) {
         //utworzenie dwóch obiektów klasy String
-        String s1 = new String("Mateusz ");
-        String s2 = new String("Boczarski");
+        String s1 = "Mateusz ";
+        String s2 = "Boczarski";
 
         //połączenie dwóch obiektów klasy String i wydrukowanie
         String s3 = s1 + s2;

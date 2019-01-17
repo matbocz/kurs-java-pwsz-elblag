@@ -1,7 +1,7 @@
 package lab2; //deklaracja pakietu
 
-import java.io.IOException; //import klasy
-import java.util.Scanner; //import klasy
+import java.io.IOException;
+import java.util.Scanner;
 
 public class Lab2Zad3 { //definicja klasy publicznej
     public static void main(String[] args) throws IOException { //definicja metody, obsługa wyjątków

@@ -1,10 +1,10 @@
 package lab3; //deklaracja pakietu
 
-import java.util.Scanner; //import klasy
+import java.util.Scanner;
 
 public class Tab2DReadPrint { //definicja klasy publicznej
     public static void main(String[] args) { //definicja metody main
-        int x[][] = new int[3][3]; //deklaracja tablicy dwuwymiarowej typu int
+        int[][] x = new int[3][3]; //deklaracja tablicy dwuwymiarowej typu int
 
         //wczytanie i wydrukowanie tablicy dwuwymiarowej x typu int
         readTab2D(x);
@@ -18,7 +18,7 @@ public class Tab2DReadPrint { //definicja klasy publicznej
     }
 
     //metoda wczytująca tablicę dwuwymiarową typu int
-    static void readTab2D(int tab[][]) {
+    static void readTab2D(int[][] tab) {
         Scanner sc = new Scanner(System.in);
 
         for (int i = 0; i < tab.length; i++) {
@@ -35,7 +35,7 @@ public class Tab2DReadPrint { //definicja klasy publicznej
     }
 
     //metoda drukująca tablicę dwuwymiarową typu int
-    static void printTab2D(int tab[][]) {
+    static void printTab2D(int[][] tab) {
         for (int i = 0; i < tab.length; i++) {
             for (int j = 0; j < tab.length; j++) {
                 System.out.print(tab[i][j] + " ");
@@ -45,7 +45,7 @@ public class Tab2DReadPrint { //definicja klasy publicznej
     }
 
     //metoda transponująca tablicę dwuwymiarową typu int
-    static void transposeTab2D(int tab[][]) {
+    static void transposeTab2D(int[][] tab) {
         int temp;
 
         for (int i = 0; i < tab.length; i++) {

@@ -3,10 +3,10 @@ package lab3; //deklaracja pakietu
 public class Matrix { //definicja klasy publicznej
     public static void main(String[] args) { //definicja metody main
         //deklaracja tablic dwuwymiarowych typu int
-        int x[][] = {{1, 2, 3}, {4, 5, 6}, {7, 8, 9}};
-        int y[][] = {{3, 8, 1}, {4, 2, 3}, {2, 1, 9}};
-        int sumaXY[][] = new int[x.length][x[0].length];
-        int iloczynXY[][] = new int[x.length][x[0].length];
+        int[][] x = {{1, 2, 3}, {4, 5, 6}, {7, 8, 9}};
+        int[][] y = {{3, 8, 1}, {4, 2, 3}, {2, 1, 9}};
+        int[][] sumaXY = new int[x.length][x[0].length];
+        int[][] iloczynXY = new int[x.length][x[0].length];
 
         //deklaracja zmiennych
         int sum, sumCol, sumRow;
@@ -62,7 +62,7 @@ public class Matrix { //definicja klasy publicznej
     }
 
     //metoda drukująca tablicę dwuwymiarową typu int
-    static void printTab2D(int tab[][]) {
+    static void printTab2D(int[][] tab) {
         for (int i = 0; i < tab.length; i++) {
             for (int j = 0; j < tab.length; j++) {
                 System.out.print(tab[i][j] + " ");
@@ -72,7 +72,7 @@ public class Matrix { //definicja klasy publicznej
     }
 
     //metoda transponująca tablicę dwuwymiarową typu int
-    static void transposeTab2D(int tab[][]) {
+    static void transposeTab2D(int[][] tab) {
         int temp;
 
         for (int i = 0; i < tab.length; i++) {
@@ -85,7 +85,7 @@ public class Matrix { //definicja klasy publicznej
     }
 
     //metoda sumująca wszystkie elementy tablicy dwuwymiarowej typu int
-    static int sumTab2D(int tab[][]) {
+    static int sumTab2D(int[][] tab) {
         int sum = 0;
 
         for (int i = 0; i < tab.length; i++) {
@@ -98,7 +98,7 @@ public class Matrix { //definicja klasy publicznej
     }
 
     //metoda sumująca wybraną kolumnę tablicy dwuwymiarowej typu int
-    static int sumColTab2D(int tab[][], int col) {
+    static int sumColTab2D(int[][] tab, int col) {
         int sum_col = 0;
 
         for (int i = 0; i < tab.length; i++)
@@ -108,7 +108,7 @@ public class Matrix { //definicja klasy publicznej
     }
 
     //metoda sumująca wybrany wiersz tablicy dwuwymiarowej typu int
-    static int sumRowTab2D(int tab[][], int row) {
+    static int sumRowTab2D(int[][] tab, int row) {
         int sum_row = 0;
 
         for (int j = 0; j < tab[0].length; j++)
@@ -118,8 +118,8 @@ public class Matrix { //definicja klasy publicznej
     }
 
     //metoda dodająca do siebie dwie tablice dwuwymiarowe typu int
-    static int[][] addTab2D(int tab1[][], int tab2[][]) {
-        int sum[][] = new int[tab1.length][tab1[0].length];
+    static int[][] addTab2D(int[][] tab1, int[][] tab2) {
+        int[][] sum = new int[tab1.length][tab1[0].length];
 
         for (int i = 0; i < tab1.length; i++) {
             for (int j = 0; j < tab1[0].length; j++) {
@@ -131,8 +131,8 @@ public class Matrix { //definicja klasy publicznej
     }
 
     //metoda mnożąca przez siebie dwie tablice dwuwymiarowe typu int
-    static int[][] multTab2D(int tab1[][], int tab2[][]) {
-        int mult[][] = new int[tab1.length][tab1[0].length];
+    static int[][] multTab2D(int[][] tab1, int[][] tab2) {
+        int[][] mult = new int[tab1.length][tab1[0].length];
 
         for (int i = 0; i < tab1.length; i++) {
             for (int j = 0; j < tab2[0].length; j++) {
