@@ -46,7 +46,7 @@ class Trojkat extends Adapt {
     Trojkat() {
     }
 
-    public double poleTrojkata(double a, double h) {
+    double poleTrojkata(double a, double h) {
         return (a * h) / 2;
     }
 }
@@ -55,7 +55,7 @@ class Kwadrat extends Adapt {
     Kwadrat() {
     }
 
-    public double poleKwadratu(double a) {
+    double poleKwadratu(double a) {
         return a * a;
     }
 }
@@ -64,7 +64,7 @@ class Prostokat extends Adapt {
     Prostokat() {
     }
 
-    public double poleProstokata(double a, double b) {
+    double poleProstokata(double a, double b) {
         return a * b;
     }
 }
@@ -73,7 +73,7 @@ class Trapez extends Adapt {
     Trapez() {
     }
 
-    public double poleTrapezu(double a, double b, double h) {
+    double poleTrapezu(double a, double b, double h) {
         return ((a + b) * h) / 2;
     }
 }
